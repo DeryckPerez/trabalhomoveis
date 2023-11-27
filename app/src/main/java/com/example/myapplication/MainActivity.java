@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        System.out.println("Passei pelo onCreate Hahahahah");
+
                 try {
                     // Specify the URL for the GET request
                     String url = "https://admanager-w6xp.onrender.com/ad/0";
